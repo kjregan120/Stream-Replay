@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>YouTube Watch Logger — Settings</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; }
+    .wrap { max-width: 900px; margin: 0 auto; padding: 16px; }
+    h1 { font-size: 18px; margin: 0 0 12px; }
+    h2 { font-size: 15px; margin: 18px 0 8px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 10px; }
+    label { display: grid; gap: 6px; font-size: 13px; }
+    input[type="text"] { padding: 8px; border: 1px solid #ddd; border-radius: 6px; }
+    button { padding: 8px 10px; border-radius: 6px; border: 1px solid #ddd; background: #f8f8f8; cursor: pointer; }
+    button:hover { background: #f1f1f1; }
+    .note { color:#555; font-size: 12px; }
+    .row { display:flex; gap:8px; align-items:center; flex-wrap: wrap; }
+    .ok { color: #0b7; }
+    .cards { display:grid; grid-template-columns: repeat(auto-fill,minmax(260px,1fr)); gap:10px; }
+    .card { border:1px solid #eee; border-radius:10px; padding:10px; }
+    .card h3 { font-size: 13px; margin:0 0 6px; display:flex; justify-content:space-between; align-items:center;}
+    .chk { display:flex; align-items:center; gap:8px; font-size:13px; }
+    .muted { color:#666; font-size:12px; }
+    .pill { font-size:11px; border:1px solid #ddd; border-radius:999px; padding:2px 8px; }
+    .group-actions { display:flex; gap:6px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Settings</h1>
+    <div class="grid">
+      <label>Profile name
+        <input id="profile" placeholder="Child" type="text" />
+      </label>
+      <label>YouTube Data API key
+        <input id="apiKey" placeholder="AIza..." type="text" />
+      </label>
+
+      <h2>Data collection — per-field</h2>
+      <div class="note">YouTube API limits requests to whole <code>part=</code> blocks, but we only <b>store</b> the individual fields you enable below.</div>
+
+      <div class="cards" id="fieldCards"></div>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Enrichment</h3>
+          <label class="chk"><input type="checkbox" id="e_categoryName"> Category name lookup <span class="muted">maps categoryId → name</span></label>
+          <label class="chk"><input type="checkbox" id="e_channelBasics"> Channel basics <span class="muted">subscriberCount, videoCount, banner…</span></label>
+        </div>
+      </div>
+
+      <div class="row">
+        <button id="save">Save</button>
+<span id="status" class="note"></span>
+      </div>
+      <div class="note">Greyed-out fields are required by the popup.</div>
+    </div>
+  </div>
+  <script src="options.js"></script>
+</body>
+</html>
