@@ -1,6 +1,6 @@
 # Stream Replay (YouTube Watch Logger)
 
-**Stream Replay** is a Chrome/Edge extension that logs YouTube videos and Shorts as you watch them. It captures detailed metadata (via the YouTube Data API v3) and stores it locally in a structured format (JSON/CSV). This makes the logs LLM-friendly for downstream analysis like summarization, embeddings, classification, and trend detection.
+**Stream Replay** is a Chrome/Edge extension that logs YouTube videos and Shorts as you watch them. It captures detailed metadata (via the YouTube Data API v3) and stores it locally in a structured format (JSON). This makes the logs LLM-friendly for downstream analysis like summarization, embeddings, classification, and trend detection. I built this to monitor what my children watch, as I don't have the time to watch or re-watch what they are doing, so I built this to allow me to monitor and if and when necessary modify the personalization to remove or down vote videos I deem inappropriate. 
 
 ---
 
@@ -9,7 +9,7 @@
 - **Automatic Logging** – Detects YouTube/Shorts videos you watch in Chrome/Edge.  
 - **Rich Metadata** – Captures title, description, channel, tags, publish date, view/like counts, duration, captions, categories, and more.  
 - **Customizable Fields** – Enable/disable individual fields in the extension settings.  
-- **Filtering & Export** – Built-in popup lets you search, filter (e.g., Shorts, Kids content), and export logs to JSON or CSV.  
+- **Filtering & Export** – Built-in popup lets you search, filter (e.g., Shorts, Kids content), and export logs to JSON.  
 - **Replay Playlists** – Generate a “watch again” playlist of logged videos with one click.  
 - **Enrichment Options** – Lookup category names and basic channel stats (subscribers, banner, etc.).  
 - **Privacy-Friendly** – Data is stored locally in Chrome’s storage; nothing is uploaded externally.  
