@@ -37,13 +37,13 @@ Paste this key into the extension’s **Settings → YouTube Data API key** fiel
 
 
 ## Chrome Installation
-1 - Download the above zip file into your downloads folder and extract the contents. 
-2 - In Chrome click the 3 dots (elipses) on the top right of the browser, scroll to and click Extensions => Manage Extensions
-3 - Click My Extensions and Toggle "Developer Mode" to On. 
-4 - Click "Load Unpacked" and navigate to the extracted zip folder in downloads. 
-5 - On the Settings / Options page (enter your Youtube Data API Key)
-6 - Select what data you'd like to collect from youtube. 
-7 - Click Save. 
+1 - Download the above zip file into your downloads folder and extract the contents.   
+2 - In Chrome click the 3 dots (elipses) on the top right of the browser, scroll to and click Extensions => Manage Extensions  
+3 - Click My Extensions and Toggle "Developer Mode" to On.  
+4 - Click "Load Unpacked" and navigate to the extracted zip folder in downloads.   
+5 - On the Settings / Options page (enter your Youtube Data API Key)  
+6 - Select what data you'd like to collect from youtube.    
+7 - Click Save.  
 
 
 
