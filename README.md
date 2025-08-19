@@ -33,9 +33,9 @@ To use this tool you will need to obtain an API Key (for Free) from Google's You
 10. Save your changes.  
 
 Paste this key into the extension’s **Settings → YouTube Data API key** field.
-<img width="1829" height="643" alt="image" src="https://github.com/user-attachments/assets/ac3adf0c-9c2a-4417-8189-15f3ab468317" />
-<img width="1830" height="767" alt="image" src="https://github.com/user-attachments/assets/863ce7db-ed76-434f-bf01-d42071b75360" />
+<img width="1830" height="767" alt="image" src="https://github.com/user-attachments/assets/863ce7db-ed76-434f-bf01-d42071b75360" />  
 
+<img width="1829" height="643" alt="image" src="https://github.com/user-attachments/assets/ac3adf0c-9c2a-4417-8189-15f3ab468317" />
 
 
 ## Chrome Installation
