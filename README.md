@@ -1,6 +1,12 @@
-# Stream Replay (YouTube Watch Logger)
+# Stream Replay (Rapidly Log and Analyze your kids Screentime)
 
-**Stream Replay** is a Chrome/Edge extension that logs YouTube videos and Shorts as you watch them. It captures detailed metadata (via the YouTube Data API v3) and stores it locally in a structured format (JSON). This makes the logs LLM-friendly for downstream analysis like summarization, embeddings, classification, and trend detection. I built this to monitor what my children watch, as I don't have the time to watch or re-watch what they are doing, so I built this to allow me to monitor and if and when necessary modify the personalization to remove or down vote videos I deem inappropriate. 
+**Stream Replay** is a Chrome and Edge browser extension that logs the YouTube videos and Shorts as your kids watch them. It captures detailed metadata (via the YouTube Data API v3) and stores all the information locally (for privacy) on your computer in a format that you can pass to ChatGPT to read and analyze. I built this so I could understand my kids better and if need-be modify their search preferences (via downvote). The first time I used it on my kids I learned that my 6 year old really likes watching videos about dinosaur and dragons but was exposed to something ChatGPT defined as a Psychological Experiment. As for my 10 year old, he spent a lot of time watching videos about a game called "Grow a Garden" and "Roblox.
+
+The Installation is completely free but might be a little tricky for someone with zero technical capabilities. Generally, I wouldn't offer the following, but because I think it's a good cause. I'm happy to help you install it if interested, you're welcome to email or text me at kjregan120@gmail.com or 203-233-2691. 
+
+Best regards, 
+
+Kevin
 
 ---
 
